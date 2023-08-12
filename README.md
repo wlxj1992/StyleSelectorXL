@@ -1,3 +1,10 @@
+SDXL 1.0 风格选择汉化
+
+改动：
+将各个风格名称改为中文，并且关闭SDXL默认展开
+
+--------------------------------------------------
+
 ## Style Selector for SDXL 1.0
 
 This repository contains a Automatic1111 Extension allows users to select and apply different styles to their inputs using SDXL 1.0.
