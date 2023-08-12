@@ -120,7 +120,7 @@ class StyleSelectorXL(scripts.Script):
 
     def ui(self, is_img2img):
         with gr.Group():
-            with gr.Accordion("SDXL Styles", open=false):
+            with gr.Accordion("SDXL Styles", open=True):
                 with FormRow():
                     with FormColumn(min_width=160):
                         is_enabled = gr.Checkbox(
