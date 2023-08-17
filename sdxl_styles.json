@@ -185,17 +185,17 @@
     "negative_prompt": "realistic, modern, horror, dystopian, violent"
   },
   {
-    "name": "《我的世界》Minecraft",
+    "name": "《我的世界》(Minecraft)",
     "prompt": "Minecraft style {prompt} . Blocky, pixelated, vibrant colors, recognizable characters and objects, game assets",
     "negative_prompt": "smooth, realistic, detailed, photorealistic, noise, blurry, deformed"
   },
   {
-    "name": "宝可梦Pokémon",
+    "name": "宝可梦(Pokémon)",
     "prompt": "Pokémon style {prompt} . Vibrant, cute, anime, fantasy, reminiscent of Pokémon series",
     "negative_prompt": "realistic, modern, horror, dystopian, violent"
   },
   {
-    "name": "怀旧街Retro Arcade",
+    "name": "怀旧街(Retro Arcade)",
     "prompt": "Retro arcade style {prompt} . 8-bit, pixelated, vibrant, classic video game, old school gaming, reminiscent of 80s and 90s arcade games",
     "negative_prompt": "modern, ultra-high resolution, photorealistic, 3D"
   },
