@@ -124,7 +124,7 @@ class StyleSelectorXL(scripts.Script):
                 with FormRow():
                     with FormColumn(min_width=160):
                         is_enabled = gr.Checkbox(
-                            value=False, label="Enable Style Selector", info="Enable Or Disable Style Selector ")
+                            value=False, label="Enable Style Selector ", info="Enable Or Disable Style Selector ")
                     with FormColumn(elem_id="Randomize Style"):
                         randomize = gr.Checkbox(
                             value=False, label="Randomize Style", info="This Will Override Selected Style")
@@ -142,12 +142,10 @@ class StyleSelectorXL(scripts.Script):
 
                 if style_ui_type == "select-list":
                     style = gr.Dropdown(
-                        #self.styleNames, value='base', multiselect=False, label="Select Style")
-                        self.styleNames, value='', multiselect=False, label="Select Style")
+                        self.styleNames, value='base', multiselect=False, label="Select Style")
                 else:
                     style = gr.Radio(
-                        #label='Style', choices=self.styleNames, value='base')
-                        label='Style', choices=self.styleNames, value='')
+                        label='Style', choices=self.styleNames, value='base')
 
         # Ignore the error if the attribute is not present
 
