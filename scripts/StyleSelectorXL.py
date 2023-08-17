@@ -142,10 +142,12 @@ class StyleSelectorXL(scripts.Script):
 
                 if style_ui_type == "select-list":
                     style = gr.Dropdown(
-                        self.styleNames, value='base', multiselect=False, label="Select Style")
+                        #self.styleNames, value='base', multiselect=False, label="Select Style")
+                        self.styleNames, value='', multiselect=False, label="Select Style")
                 else:
                     style = gr.Radio(
-                        label='Style', choices=self.styleNames, value='base')
+                        #label='Style', choices=self.styleNames, value='base')
+                        label='Style', choices=self.styleNames, value='')
 
         # Ignore the error if the attribute is not present
 
