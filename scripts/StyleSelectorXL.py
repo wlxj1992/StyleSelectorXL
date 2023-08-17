@@ -116,7 +116,7 @@ class StyleSelectorXL(scripts.Script):
         return "Style Selector for SDXL 1.0"
 
     def show(self, is_img2img):
-        //return scripts.AlwaysVisible
+        #return scripts.AlwaysVisible
 
     def ui(self, is_img2img):
         with gr.Group():
