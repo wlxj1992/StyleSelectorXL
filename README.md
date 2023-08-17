@@ -1,8 +1,9 @@
 原作者的链接：https://github.com/ahgsql/StyleSelectorXL
 
 改动：
-1.将各个风格名称改为中文。
-2.将StyleSelectorXL改为默认不展开，并且默认不启动。
+1、将各个风格名称改为中文
+
+2、将StyleSelectorXL改为默认不展开，并且默认不启动。
 
 --------------------------------------------------
 
